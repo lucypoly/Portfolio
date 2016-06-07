@@ -1,0 +1,111 @@
+.navbar-brand>img{
+	width:49px;
+	height: 47px;
+	margin-top: -15px;
+}
+.navbar{
+	padding: 15px 0;
+	background: none;
+	border:none;
+}
+.navbar-brand .pull-right{
+	margin-left: 20px;
+	margin-top: -15px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: #00BD9D;
+	color: white;
+}
+.navbar-default .navbar-toggle:hover,  .navbar-default .navbar-toggle:focus{
+	background-color: #00BD9D;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+	background-color: white;
+}
+.jumbotron{
+	background-image: url(jumbotron.png);
+	background-size: cover;
+	color: white;
+	margin-bottom: 0px;
+}
+
+.jumbotron .btn-primary{
+	background-color: transparent;
+	border:solid white 2px;
+
+}
+.jumbotron .btn-primary:hover,.jumbotron .btn-primary:focus {
+	background-color: #00BD9D;
+	border:solid #00BD9D 2px;
+}
+.jumbotron .glyphicon.glyphicon-menu-down{
+	font-size: 30px;
+	border-radius: 22px;
+	padding: 5px;
+	background-color: white;
+	color: #473C38;
+	font-weight: 900;
+}
+.jumbotron .glyphicon.glyphicon-menu-down:hover{
+	background-color:#00BD9D ;
+	color: white;
+}
+#portfolio{
+	background-color: white;
+	background-image: none;
+	color: black;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+.jumbotron#portfolio .btn-primary{
+	background-color: #00BD9D;
+	border:solid  #00BD9D 2px;
+	color: white;
+}
+.jumbotron#portfolio .btn-primary:hover,.jumbotron .btn-primary:focus {
+	background-color: #00BD9D;
+	border:solid #00BD9D 2px;
+	color: white;
+}	
+#pics>a>img{
+	margin:20px;
+}
+.jumbotron#about{
+	background-image: none;
+	background-color: #00BD9D;
+}
+.jumbotron#contact{
+	background-image: none;
+	background-color: #EBF0F3;
+	color: black;
+}
+#contact .btn-default{
+	background-color: #00BD9D;
+	border:solid  #00BD9D 2px;
+	color: white;
+}
+#contact .btn-default:focus{
+	background-color: #00BD9D;
+	border:solid  #00BD9D 2px;
+	color: white;
+}
+#footer{
+	background-color: #1E3C50;
+	color: white;
+}
+#footer>.container{
+	padding: 2em 0;
+}
+#footer a{
+	background-color:#00BD9B; 
+	padding: 10px;
+}
+#portfolio a.btn{
+	margin: 5px;
+}
+@media screen and (max-width:350px){
+	.navbar-brand > .pull-right{
+		display: none;
+	}
+}

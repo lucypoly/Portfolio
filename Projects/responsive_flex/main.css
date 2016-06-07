@@ -1,0 +1,310 @@
+	body{
+		background-color: white;
+		display: flex;
+		flex-direction:column;
+		margin: 0px;
+		color: black;
+		width: 100%;
+		
+	}
+	header{
+		width: 100%;	
+		display: flex;
+		flex-direction:column;
+	}
+	.section{
+		max-width: 1000px;
+		margin: auto;
+			}
+
+	.navbar{
+		width: 100%;
+		display: flex;
+		flex-direction:row;
+		justify-content: space-between;
+		margin-bottom: 10px;
+	}
+	.brand{
+		margin-left: 30px;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		width:50%;
+		max-height: 50px;
+		display: flex;
+		flex-direction:row;
+		order: 1;
+	}
+	.textlogo{	
+		display: flex;
+		flex-direction:column;
+		padding-left:10px;
+		min-width: 190px;
+	}
+	.textlogo span:first-child{
+		font-size: 18pt;
+
+	}
+	.textlogo span:nth-child(2){
+		font-size: 14pt;
+	}
+	.nav{
+		margin-right: 50px;
+		margin-top: 40px;
+		order: 2;
+		width: 50%;
+	}
+	.nav>ul{
+		list-style: none;
+		padding: 0px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row; 
+		justify-content: center;
+		
+	}
+	.nav>ul>li{
+		margin: 10px;
+	}
+	.nav>ul>li>a{
+		text-decoration: none;
+		padding:10px; 
+		color:black;
+	}
+	.nav>ul>li>a:hover{
+		background-color: #00BD9B;		
+		color: white;
+	}
+	.jambotron{
+		width: 100%;
+		background-image: url(jumbotron.png);
+		background-size: cover;
+		min-height: 300px;
+	}
+	.caption{
+		color: white;
+		
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.text>span:nth-child(2){
+		font-style: bold;
+	}
+	.text{
+		text-align: center;
+		font-family: 'Myriad Pro Regular';
+		font-size: 55pt;
+	}
+
+	#textsmall{
+		font-size: 18pt;
+		padding: 10px;
+		font-family: 'Myriad Pro Regular';
+	}
+	.caption .button>input, #all, #web, #graph, #flat, #submit{
+		background-color: #00BD9B;
+		font-family: '[Lato Bold]';
+		font-size: 13pt;
+		color: white;
+		border: none;
+		padding: 10px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-right: 10px;
+	}
+	#submit{
+		align-self: flex-end;
+	}
+	.section1, .section2, .section3 {
+		width: 100%;
+		text-align: center;
+		padding-top: 3%;
+		padding-bottom: 3%;
+	}
+
+	.section1 div, .section2 div, .section3 div{
+		padding-top: 0.5%;
+		padding-bottom: 0.5%;
+	}
+	.big{
+		font-family: 'Myriad Pro Regular';
+		font-size: 28pt;
+	}
+	.small{
+		font-family: 'Myriad Pro Regular';
+		font-size: 16pt;
+	}
+	.filter{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.menu{
+		margin-right: 10%;
+		margin-left: 10%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-bottom: 5%
+	}
+	.section2{
+		background-color: #00BD9B;
+	}
+	.section2 .big{
+		font-family: 'Myriad Pro Regular';
+		font-size: 28pt;
+		color: white;
+	}
+	.section2 .small{
+		font-family: 'Myriad Pro Regular';
+		font-size: 16pt;
+		color: white;
+	}
+	.foto{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin:50px auto 50px auto;
+	}
+	.foto div{
+		width: 220px;
+		background-color: white;
+		margin: 10px;
+		padding: 0px;
+		padding-bottom: 10px;
+	}
+	.foto .name{
+		text-align: center;
+		font-family: 'Myriad Pro Regular';
+		font-size: 18pt;
+	}
+	.foto .job{
+		text-align: center;
+		font-family: 'Myriad Pro Regular';
+		font-size: 14pt;
+		font-style: italic;
+	}
+	.foto .about{
+		font-family: 'Myriad Pro Regular';
+		font-size: 14pt;
+	}
+	.section3{
+		background-color: #EBF0F1;
+	}
+	.contacts{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.contacts .Col1{
+		width: 45%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.contacts .Col2{
+		width: 45%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.contacts input, .contacts textarea{
+		margin: 20px;
+		padding: 10px;
+		font-family: 'Myriad Pro Regular';
+			}
+	.contacts .Col1, .contacts .Col2{
+		padding: 10px;
+		margin: 10px;
+	}
+	.contacts .Col1 form{
+		text-align: right;
+			}
+
+	.contacts .Col1 #name, 	.contacts .Col1 #email{
+		width: 40%;
+	}
+	.contacts .Col1 textarea{
+		width: 90%;
+			}
+	div.Col2{
+		text-align: left;
+	}
+	address a{
+		text-decoration: none;
+		color: black;
+	}
+	footer{
+		background-color: #1E3C50;
+		color: white;
+		width: 100%
+				}
+	footer .section{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+					}
+	
+	footer div.col1, footer div.col2{
+		width: 
+		padding: 10px;
+		margin: 10px;	
+	}
+	
+	footer div.col2 a{
+		background-color:#00BD9B; 
+		display: block;
+		width: 50px;
+		height: 50px;
+		float: right;
+		line-height: 50px;
+		text-align: center;
+	}
+
+
+	@media screen and (max-width: 745px) {
+		.navbar{
+			width: 100%;
+			display: flex;
+			flex-direction:column;
+			justify-content: space-between;
+			margin-bottom: 10px;
+		}
+		.textlogo{
+			display: none;
+		}
+		.nav{
+			margin-right: 0px;
+			margin-right: 20px;
+			display: flex;
+			flex-direction: column; 
+			justify-content: space-between;
+			margin-top: 0px;
+		}
+		.nav>ul>li>a{
+			padding:5px; 
+		}
+
+		.contacts input, .contacts textarea {
+    margin: 5px;
+        }
+        .contacts .Col1 form {
+    text-align: left;
+}
+    		.nav>ul{
+		list-style: none;
+		padding: 0px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row; 
+		justify-content: space-between;
+		flex-wrap: wrap;
+	
+	}
+
