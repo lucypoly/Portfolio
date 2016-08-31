@@ -1,2 +1,2 @@
-1. Responsive-flex access https://bootstrap-first.herokuapp.com/main.html
+1. Bootstrap-first access https://bootstrap-first.herokuapp.com/main.html
 
